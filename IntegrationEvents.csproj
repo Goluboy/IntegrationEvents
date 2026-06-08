@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<PackageId>Netu.IntegrationEvents</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Goluboy1</Authors>
+		<Company>Netu</Company>
+		<Product>IntegrationEvents</Product>
+		<Description>Integration events for the Netu applications</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+</Project>
