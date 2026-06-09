@@ -6,13 +6,18 @@
 		<Nullable>enable</Nullable>
 
 		<PackageId>Netu.IntegrationEvents</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.1.0</Version>
 		<Authors>Goluboy1</Authors>
 		<Company>Netu</Company>
 		<Product>IntegrationEvents</Product>
 		<Description>Integration events for the Netu applications</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RepositoryUrl>https://github.com/Goluboy/IntegrationEvents</RepositoryUrl>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="NewId" Version="4.0.1" />
+	</ItemGroup>
 
 </Project>
