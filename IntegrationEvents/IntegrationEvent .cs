@@ -7,6 +7,7 @@ public abstract record IntegrationEvent
     public Guid EventId { get; init; }
     public DateTime OccurredOn { get; init; } = DateTime.UtcNow;
     public Guid CorrelationId { get; init; } // = OrderId для связки шагов SAGA
+    public Guid OrderId => CorrelationId;
 
     protected IntegrationEvent()
     {
